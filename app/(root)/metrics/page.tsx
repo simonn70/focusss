@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Label } from 'recharts';
+import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend, Label } from 'recharts';
 
 const data = [
   { name: 'January', fatigueRate: 30 },
@@ -22,7 +22,7 @@ const Page = () => {
     <div style={{ width: '100%', height: 400 }}>
       <ResponsiveContainer>
         <BarChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
+          {/* <CartesianGrid strokeDasharray="3 3" /> */}
           <XAxis dataKey="name">
             <Label value="Months of the Year" offset={-5} position="insideBottom" />
           </XAxis>
