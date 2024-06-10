@@ -28,7 +28,7 @@ export default function RootLayout({
           socialButtonsVariant: "iconButton",
         },
         variables: {
-          colorText: "#000",
+          colorText: "#fff",
           colorPrimary: "#830EF9",
           colorBackground: "#1C1F2E",
           colorInputBackground: "#252A41",
